@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="formate.css">
+</head>
+<body>
+    <div class="calculator">
+        <head >Calculator</head>
+        <input type="text" id="display" readonly>
+        <br>
+        <input type="button" value="1" onclick="Display('1')">
+        <input type="button" value="2" onclick="Display('2')">
+        <input type="button" value="3" onclick="Display('3')">
+        <input type="button" value="+" onclick="Display('+')">
+        <br>
+        <input type="button" value="4" onclick="Display('4')">
+        <input type="button" value="5" onclick="Display('5')">
+        <input type="button" value="6" onclick="Display('6')">
+        <input type="button" value="-" onclick="Display('-')">
+        <br>
+        <input type="button" value="7" onclick="Display('7')">
+        <input type="button" value="8" onclick="Display('8')">
+        <input type="button" value="9" onclick="Display('9')">
+        <input type="button" value="*" onclick="Display('*')">
+        <br>
+        <input type="button" value="Clr" onclick="clearDisplay()">
+        <input type="button" value="0" onclick="Display('0')">
+        <input type="button" value="Del" onclick="deleteLastChar()">
+        <input type="button" value="/" onclick="Display('/')">
+        <button onclick="calculate()">=</button>
+        
+    </div>
+    <script src="calu.js"></script>
+</body>
+</html>
